@@ -12,24 +12,22 @@ import javax.persistence.*;
 @Setter
 @ToString
 @NoArgsConstructor
-public class Article {
+public class Rating {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="article_id")
+    @Column(name="rating_id")
     private int id;
 
     @JoinColumn(name="location_id")
     @ManyToOne(targetEntity = Location.class, fetch = FetchType.LAZY)
     private Location location;
 
-    @Column(name="image")
-    private String image;
+    @JoinColumn(name="customer_id")
+    @ManyToOne(targetEntity = Customer.class, fetch = FetchType.LAZY)
+    private Customer customer;
 
-    @Column(name="summary")
-    private String summary;
-
-    @Column(name="link")
-    private String link;
+    @Column(name="rating")
+    private float rating;
 
 }
