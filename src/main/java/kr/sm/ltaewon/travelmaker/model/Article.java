@@ -6,22 +6,29 @@ import lombok.Setter;
 import lombok.ToString;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import java.io.Serializable;
+import java.sql.Timestamp;
 
 @Entity
 @Getter
 @Setter
 @ToString
 @NoArgsConstructor
-public class Article {
+public class Article{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="article_id")
     private int id;
 
-    @JoinColumn(name="location_id")
-    @ManyToOne(targetEntity = Location.class, fetch = FetchType.LAZY)
-    private Location location;
+    @NotNull
+    @Column(name="location_id")
+    private int location_id;
+
+    @NotNull
+    @Column(name="user_id")
+    private int user_id;
 
     @Column(name="image")
     private String image;
@@ -31,5 +38,10 @@ public class Article {
 
     @Column(name="link")
     private String link;
+
+    @Column(name="reg_date")
+    private Timestamp reg_date;
+
+
 
 }

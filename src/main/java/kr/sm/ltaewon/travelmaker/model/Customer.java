@@ -20,7 +20,7 @@ public class Customer {
     private int id;
 
     @Column(name="account_id")
-    private String account_id;
+    private String account;
 
     @Column(name="password")
     private String password;

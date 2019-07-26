@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1c4d189-f2de-44c5-a756-969a843f9792" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/ArticleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/LocationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/kr/sm/ltaewon/travelmaker/controller/ArticleControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Rating.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,41 +29,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/controller/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/TravelmakerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="413">
+              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Article.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/controller/ArticleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="254">
+              <caret line="29" column="68" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,10 +48,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Customer.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kr/sm/ltaewon/travelmaker/controller/ArticleControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="362">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,10 +60,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Rating.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/CustomerRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/LocationRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/ArticleRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Location.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="437">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,10 +108,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/controller/LinkController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="411">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,19 +120,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Rating.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="314">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="432">
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,8 +149,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>c</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,14 +167,22 @@
         <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/model/Article.java" />
         <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/app/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Rank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Article.java" />
         <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Location.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Rating.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/service/LocationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Article.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/CustomerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/LocationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/ArticleRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/kr/sm/ltaewon/travelmaker/controller/ArticleControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/controller/ArticleController.java" />
       </list>
     </option>
   </component>
@@ -169,9 +193,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="189" />
+    <option name="y" value="34" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -182,6 +208,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,7 +265,9 @@
               <item name="travelmaker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="travelmaker" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travelmaker" type="b2602c69:ProjectViewProjectNode" />
@@ -246,7 +275,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travelmaker" type="b2602c69:ProjectViewProjectNode" />
@@ -268,12 +296,25 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="travelmaker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travelmaker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelmaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="travelmaker" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travelmaker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelmaker" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,9 +325,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="kr.sm.ltaewon.travelmaker.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -300,7 +352,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TravelmakerApplication">
+  <component name="RunManager" selected="JUnit.ArticleControllerTest">
+    <configuration name="All in travelmaker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="travelmaker" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="travelmaker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kr.sm.ltaewon.travelmaker.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kr.sm.ltaewon.travelmaker.controller" />
+      <option name="MAIN_CLASS_NAME" value="kr.sm.ltaewon.travelmaker.controller.ArticleControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="travelmaker" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kr.sm.ltaewon.app.Application" />
@@ -315,6 +390,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArticleControllerTest" />
+        <item itemvalue="JUnit.All in travelmaker" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -328,17 +409,47 @@
       <updated>1563539307064</updated>
       <workItem from="1563539308602" duration="847000" />
       <workItem from="1563701362080" duration="5633000" />
+      <workItem from="1564062178902" duration="13469000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_travelmaker - 2019.07.26 at 14h 51m 53s.xml">
+      <configuration name="All in travelmaker" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleControllerTest - 2019.07.26 at 19h 30m 31s.xml">
+      <configuration name="ArticleControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleControllerTest - 2019.07.26 at 19h 31m 16s.xml">
+      <configuration name="ArticleControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleControllerTest - 2019.07.26 at 19h 36m 39s.xml">
+      <configuration name="ArticleControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleControllerTest - 2019.07.26 at 20h 08m 48s.xml">
+      <configuration name="ArticleControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleControllerTest - 2019.07.26 at 20h 09m 57s.xml">
+      <configuration name="ArticleControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleControllerTest - 2019.07.26 at 20h 11m 22s.xml">
+      <configuration name="ArticleControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleControllerTest - 2019.07.26 at 20h 12m 13s.xml">
+      <configuration name="ArticleControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleControllerTest - 2019.07.26 at 20h 12m 50s.xml">
+      <configuration name="ArticleControllerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7603000" />
+    <option name="totallyTimeSpent" value="21273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <frame x="0" y="23" width="1120" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38218924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -349,7 +460,7 @@
       <window_info id="Image Layers" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32865497" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32865497" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,7 +472,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32982457" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -396,23 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/controller/LinkController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -430,10 +524,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/TravelmakerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -442,25 +546,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Rating.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Location.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="437">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -469,8 +570,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="411">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Rating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/service/LocationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/LocationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/CustomerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -479,8 +624,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="432">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/ArticleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kr/sm/ltaewon/travelmaker/controller/ArticleControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="29" column="68" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
