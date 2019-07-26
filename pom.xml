@@ -20,6 +20,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <spring.boot.mainclass>kr.sm.ltaewon.travelmaker.TravelmakerApplication</spring.boot.mainclass>
     </properties>
 
     <dependencies>
@@ -52,10 +53,11 @@
             <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.4.0-M1</version>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.0</version>
             <scope>test</scope>
         </dependency>
 
@@ -67,7 +69,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
         </plugins>
     </build>
-
 </project>
