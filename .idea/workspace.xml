@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ba6d8f-2431-4de6-bf20-09db07139571" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/TravelmakerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/itaewon/travelmaker/TravelmakerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/itaewon/travelmaker/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/itaewon/travelmaker/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/controller/LinkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/itaewon/travelmaker/controller/LinkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/itaewon/travelmaker/model/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/itaewon/travelmaker/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/itaewon/travelmaker/model/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/model/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/itaewon/travelmaker/model/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/itaewon/travelmaker/repo/ArticleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/itaewon/travelmaker/repo/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/sm/ltaewon/travelmaker/repo/LocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/sm/itaewon/travelmaker/repo/LocationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kr/sm/ltaewon/travelmaker/TravelmakerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/sm/itaewon/travelmaker/TravelmakerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kr/sm/ltaewon/travelmaker/controller/ArticleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/sm/itaewon/travelmaker/controller/ArticleControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/travelmaker.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kr/sm/ltaewon/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kr/sm/ltaewon/app/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kr/sm/ltaewon/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kr/sm/ltaewon/model/Article.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -62,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -338,7 +313,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564729611284</updated>
-      <workItem from="1564729612622" duration="3546000" />
+      <workItem from="1564729612622" duration="4352000" />
     </task>
     <servers />
   </component>
@@ -351,7 +326,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3546000" />
+    <option name="totallyTimeSpent" value="4352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
@@ -457,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
