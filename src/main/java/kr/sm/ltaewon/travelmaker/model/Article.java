@@ -23,13 +23,13 @@ public class Article {
     @ManyToOne(targetEntity = Location.class, fetch = FetchType.LAZY)
     private Location location;
 
+    @JoinColumn(name="link")
+    @ManyToOne(targetEntity = Link.class, fetch = FetchType.LAZY)
+    private Location link;
+
     @Column(name="image")
     private String image;
 
     @Column(name="summary")
     private String summary;
-
-    @Column(name="link")
-    private String link;
-
 }
