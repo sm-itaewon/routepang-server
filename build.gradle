@@ -1,0 +1,42 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.1.6.RELEASE")
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+group 'kr.sm.itaewon'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-thymeleaf:2.1.6.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa:2.1.6.RELEASE'
+    compile 'org.projectlombok:lombok:1.18.8'
+    runtime 'org.postgresql:postgresql:42.2.5'
+    testCompile 'org.springframework.boot:spring-boot-starter-test:2.1.6.RELEASE'
+    testCompile 'org.mockito:mockito-all:1.9.5'
+    testCompile "org.powermock:powermock-module-junit4:1.6.4"
+    testCompile "org.powermock:powermock-module-junit4-rule:1.6.4"
+    testCompile "org.powermock:powermock-api-mockito:1.6.4"
+    testCompile "org.powermock:powermock-classloading-xstream:1.6.4"
+
+}
