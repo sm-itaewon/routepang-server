@@ -7,6 +7,7 @@ import java.util.List;
 
 
 public interface ArticleRepository extends CrudRepository<Article, Long> {
+
     List<Article> findByArticleId(long article_id);
 
     List<Article> findByLocationId(long loacation_id);
