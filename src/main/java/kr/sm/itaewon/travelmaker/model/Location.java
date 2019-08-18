@@ -31,11 +31,8 @@ public class Location {
     @Column(columnDefinition="Geometry")
     private Point coordinates;
 
-    @Column(name="latitude")
-    private float latitude;
-
-    @Column(name="longitude")
-    private float longitude;
+    @Column(name="place_id")
+    private String placeId;
 
     @Column(name="address")
     private String address;

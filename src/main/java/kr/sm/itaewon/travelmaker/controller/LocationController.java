@@ -49,4 +49,5 @@ public class LocationController {
         return new ResponseEntity<List<Location>>(list, HttpStatus.OK);
     }
 
+
 }
