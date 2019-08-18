@@ -1,5 +1,6 @@
 package kr.sm.itaewon.travelmaker.controller;
 
+import com.vividsolutions.jts.geom.Point;
 import kr.sm.itaewon.travelmaker.model.Article;
 import kr.sm.itaewon.travelmaker.model.Location;
 import kr.sm.itaewon.travelmaker.repo.LocationRepository;
@@ -40,11 +41,12 @@ public class LocationController {
         return new ResponseEntity<List<Location>>(list, HttpStatus.OK);
     }
 
-    //TODO postGIS 기능으로 수행할 수 있는 방법 모색, 지도 정보 저장 방식 검토
-//    @GetMapping("/getLocationByCoordinate/latitude={latitude}&&longitude={longitude}")
-//    public ResponseEntity<List<Location>> getLocationByCoordinate(@PathVariable long latitude,@PathVariable long longitude){
-//
-//
-//    }
+    @GetMapping("/getLocationByCoordinate/{coordinate}")
+    public ResponseEntity<List<Location>> getLocationByCoordinate(@PathVariable Point coordinate){
+
+        List<Location> list = repository.findByCoordinate(coordinate);
+
+        return new ResponseEntity<List<Location>>(list, HttpStatus.OK);
+    }
 
 }

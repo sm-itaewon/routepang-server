@@ -1,10 +1,16 @@
 package kr.sm.itaewon.travelmaker.model;
 
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.vividsolutions.jts.geom.Point;
+import kr.sm.itaewon.travelmaker.util.JsonToPointDeserializer;
+import kr.sm.itaewon.travelmaker.util.PointToJsonSerializer;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 
@@ -19,6 +25,11 @@ public class Location {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="location_id")
     private long locationId;
+
+    @JsonSerialize(using = PointToJsonSerializer.class)
+    @JsonDeserialize(using = JsonToPointDeserializer.class)
+    @Column(columnDefinition="Geometry")
+    private Point coordinates;
 
     @Column(name="latitude")
     private float latitude;

@@ -58,7 +58,15 @@ public class ArticleController {
         article.setUserId(1);
         repository.save(article);
 
+        Object.class.hashCode();
+
         return new ResponseEntity<Void>(HttpStatus.CREATED);
     }
 
+    @PostMapping("/addBasket/{user_id}")
+    public ResponseEntity<Void> addWishList(@RequestBody Article article, @PathVariable long user_id){
+        //TODO add wishlist
+
+        return new ResponseEntity<Void>(HttpStatus.CREATED);
+    }
 }
