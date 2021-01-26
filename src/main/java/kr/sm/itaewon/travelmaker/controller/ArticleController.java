@@ -7,7 +7,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -28,32 +30,32 @@ public class ArticleController {
         return new ResponseEntity<List<Article>>(list, HttpStatus.OK);
     }
 
-//    @GetMapping("/getArticleById/{article_id}")
-//    public ResponseEntity<List<Article>> getArticleById(@PathVariable long article_id){
-//
-//        List<Article> list = repository.findByArticleId(article_id);
-//
-//        return new ResponseEntity<List<Article>>(list, HttpStatus.OK);
-//    }
-//
-//    @GetMapping("/getArticleByLocationId/{location_id}")
-//    public ResponseEntity<List<Article>> getArticleByLocationId(@PathVariable long location_id){
-//
-//        List<Article> list = repository.findByLocationId(location_id);
-//
-//        return new ResponseEntity<List<Article>>(list, HttpStatus.OK);
-//    }
+    @GetMapping("/getArticleById/{article_id}")
+    public ResponseEntity<List<Article>> getArticleById(@PathVariable long article_id){
+
+        List<Article> list = repository.findByArticleId(article_id);
+
+        return new ResponseEntity<List<Article>>(list, HttpStatus.OK);
+    }
+
+    @GetMapping("/getArticleByLocationId/{location_id}")
+    public ResponseEntity<List<Article>> getArticleByLocationId(@PathVariable long location_id){
+
+        List<Article> list = repository.findByLocationId(location_id);
+
+        return new ResponseEntity<List<Article>>(list, HttpStatus.OK);
+    }
 
     @GetMapping("/create")
     public ResponseEntity<Void> postArticle(/*@RequestBody Article article*/){ // 나중에 파라미터로 받을 때 @RequestBody, @PostMapping 사용
         Article article = new Article();
 //        Article model = article;
-//        article.setLocation_id(1);
-//        article.setReg_date(new Timestamp(new Date().getTime()));
-//        article.setLink("https://");
-//        article.setSummary("");
-//        article.setImage("hello.jpg");
-//        article.setUser_id(1);
+        article.setLocationId(1);
+        article.setReg_date(new Timestamp(new Date().getTime()));
+        article.setLink("https://");
+        article.setSummary("");
+        article.setImage("hello.jpg");
+        article.setUserId(1);
         repository.save(article);
 
         return new ResponseEntity<Void>(HttpStatus.CREATED);

@@ -17,13 +17,13 @@ public class Rating {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="rating_id")
-    private int id;
+    private long ratingId;
 
     @Column(name="location_id")
-    private int location_id;
+    private long locationId;
 
     @Column(name="customer_id")
-    private int customer_id;
+    private long customerId;
 
     @Column(name="rating")
     private float rating;

@@ -20,15 +20,15 @@ public class Article{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="article_id")
-    private int id;
+    private long articleId;
 
     @NotNull
     @Column(name="location_id")
-    private int location_id;
+    private long locationId;
 
     @NotNull
     @Column(name="user_id")
-    private int user_id;
+    private long userId;
 
     @Column(name="image")
     private String image;
